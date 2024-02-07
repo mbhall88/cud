@@ -8,7 +8,7 @@ Copy and paste the contents of `cud.py` into your project and use the `cud()` fu
 
 The standard 8-colour palette
 
-```
+```python
 palette = cud()
 plot_colourtable(palette)
 ```
@@ -17,7 +17,7 @@ plot_colourtable(palette)
 
 Or you can offset and start from the second colour
 
-```
+```python
 palette = cud(start=1)
 plot_colourtable(palette)
 ```
@@ -26,7 +26,7 @@ plot_colourtable(palette)
 
 Or only select three colours
 
-```
+```python
 palette = cud(n=3)
 plot_colourtable(palette)
 ```
@@ -35,4 +35,26 @@ plot_colourtable(palette)
 
 See [`utils.py`](./utils.py) for the code used to generate the above plots.
 
+A common usecase for such a palette would be with [`seaborn`][seaborn]
+
+```python
+import seaborn as sns
+sns.set_theme(style="whitegrid")
+penguins = sns.load_dataset("penguins")
+palette = cud()
+# Draw a nested barplot by species and sex
+g = sns.catplot(
+    data=penguins, kind="bar",
+    x="species", y="body_mass_g", hue="sex",
+    errorbar="sd", alpha=.6, height=6,
+    palette=palette
+)
+g.despine(left=True)
+g.set_axis_labels("", "Body mass (g)")
+g.legend.set_title("")
+```
+
+![seaborn palette](./imgs/seaborn.png)
+
 [cud]: https://jfly.uni-koeln.de/color/
+[seaborn]:https://seaborn.pydata.org
