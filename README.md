@@ -2,6 +2,17 @@
 
 This repository contains a python file [`cud.py`](./cud.py) which contains a dictionary, list, and associated function for creating a palette based on the [Color Universal Design][cud].
 
+|-|Hex|Color |
+|---|---|---|
+|![#000000](https://placehold.co/15x15/000000/000000.png) |`#000000` | Black |
+|![#e69f00](https://placehold.co/15x15/e69f00/e69f00.png) |`#e69f00` | Orange |
+|![#56b4e9](https://placehold.co/15x15/56b4e9/56b4e9.png) |`#56b4e9` | Skyblue |
+|![#009e73](https://placehold.co/15x15/009e73/009e73.png) |`#009e73` | Bluish Green |
+|![#f0e442](https://placehold.co/15x15/f0e442/f0e442.png) |`#f0e442` | Yellow |
+|![#0072b2](https://placehold.co/15x15/0072b2/0072b2.png) |`#0072b2` | Blue |
+|![#d55e00](https://placehold.co/15x15/d55e00/d55e00.png) |`#d55e00` | Vermilion |
+|![#cc79a7](https://placehold.co/15x15/cc79a7/cc79a7.png) |`#cc79a7` | Redish Purple |
+
 ## Usage
 
 Copy and paste the contents of `cud.py` into your project and use the `cud()` function as follows.
