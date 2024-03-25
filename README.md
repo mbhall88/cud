@@ -9,8 +9,8 @@ This repository contains a python file [`cud.py`](./cud.py) which contains a dic
 |![#56b4e9](https://placehold.co/15x15/56b4e9/56b4e9.png) |`#56b4e9` | Skyblue |
 |![#009e73](https://placehold.co/15x15/009e73/009e73.png) |`#009e73` | Bluish Green |
 |![#f0e442](https://placehold.co/15x15/f0e442/f0e442.png) |`#f0e442` | Yellow |
-|![#0072b2](https://placehold.co/15x15/0072b2/0072b2.png) |`#0072b2` | Vermilion |
-|![#d55e00](https://placehold.co/15x15/d55e00/d55e00.png) |`#d55e00` | Redish Purple |
+|![#0072b2](https://placehold.co/15x15/0072b2/0072b2.png) |`#0072b2` | Blue |
+|![#d55e00](https://placehold.co/15x15/d55e00/d55e00.png) |`#d55e00` | Vermilion |
 |![#cc79a7](https://placehold.co/15x15/cc79a7/cc79a7.png) |`#cc79a7` | Redish Purple |
 
 ## Usage
