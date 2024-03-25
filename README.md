@@ -4,7 +4,7 @@ This repository contains a python file [`cud.py`](./cud.py) which contains a dic
 
 |-|Hex|Color |
 |---|---|---|
-|![#000000](https://placehold.co/15x15/000000/000000.png) |`#f03c15` | Black |
+|![#000000](https://placehold.co/15x15/000000/000000.png) |`#000000` | Black |
 |![#e69f00](https://placehold.co/15x15/e69f00/e69f00.png) |`#e69f00` | Orange |
 |![#56b4e9](https://placehold.co/15x15/56b4e9/56b4e9.png) |`#56b4e9` | Skyblue |
 |![#009e73](https://placehold.co/15x15/009e73/009e73.png) |`#009e73` | Bluish Green |
