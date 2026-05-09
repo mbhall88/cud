@@ -2,7 +2,7 @@
 
 This repository contains a python file [`cud.py`](./cud.py) which contains a dictionary, list, and associated function for creating a palette based on the [Color Universal Design][cud].
 
-|-|Hex|Color |
+|-|Hex|Colour |
 |---|---|---|
 |![#000000](https://placehold.co/15x15/000000/000000.png) |`#000000` | Black |
 |![#e69f00](https://placehold.co/15x15/e69f00/e69f00.png) |`#e69f00` | Orange |
